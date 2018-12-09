@@ -378,7 +378,8 @@
       "hospital_2",
       "mall_a_30",
       "religous_church",
-      "religous_cemetery"
+      "religous_cemetery",
+      "homelesscamp_north"
     ],
     "flags": [ "SUR_START", "CITY_START" ]
   },
@@ -434,5 +435,15 @@
     "start_name": "Camping",
     "allowed_locs": [ "campsite_a", "campsite", "campground_1a", "campground_2b" ],
     "professions": [ "camper" ]
+  },
+  {
+    "type": "scenario",
+    "ident": "homeless",
+    "name": "Homeless Camp",
+    "points": 0,
+    "description": "Weather due to choice, financial burdens, or a substance issue you are homeless, prior to the cataclysm the city authorities ran out the vagrants, and you found yourself living here, from what you can tell they may have done you a favor.",
+    "allowed_locs": [ "homelesscamp_north" ],
+    "start_name": "Homeless Camp",
+    "professions": [ "tweaker", "crackhead", "homeless", "unemployed", "backpacker", "hitchhiker" ]
   }
 ]
